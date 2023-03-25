@@ -1,0 +1,9 @@
+.icon {
+  width: 4.5rem;
+}
+
+@media all and (min-width: 608px) {
+  .icon {
+    width: 10rem;
+  }
+}

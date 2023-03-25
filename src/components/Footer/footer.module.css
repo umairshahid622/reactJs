@@ -1,0 +1,34 @@
+.wrap {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  background-color: rgb(82, 41, 41);
+  padding: 3rem 1rem;
+  color: beige;
+}
+.wrap a {
+  color: var(--main-color);
+}
+.wrap a:hover {
+  font-weight: bold;
+}
+.wrap > img {
+  max-height: 10rem;
+}
+.column {
+  width: 100%;
+  padding: 1rem;
+}
+
+.column > ul {
+  list-style-type: none;
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .wrap {
+    grid-template-columns: repeat(4, 25%);
+    padding: 3rem;
+  }
+}

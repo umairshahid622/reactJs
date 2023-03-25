@@ -1,0 +1,36 @@
+.wrapper {
+  padding: 2rem 1rem;
+}
+.header {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  font-weight: medium;
+  font-size: 1.2rem;
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+}
+.container {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
